@@ -1,0 +1,72 @@
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    .wp-gmap-properties-outer {
+        width: 100% !important;
+    }
+    .wp-gmap-preview {
+        width: 98% !important;
+        float: left !important;
+        margin-top: 10px !important;
+    }
+    .wp-gmap-single-left {
+        width: 100% !important;
+        float: left;
+    }
+    .wp-gmap-single-action {
+        width: 100% !important;
+        text-align:left !important;
+    }
+    .wp-gmap-list .regular-text{
+        width: 98% !important;
+    }
+
+    ul#wp-gmap-nav{
+        margin: 5px 0 0 5px !important;
+    }
+    ul#wp-gmap-nav li a{
+        /*min-width: 130px !important;*/
+    }
+    .wp-gmap-list{
+        width: 98.5% !important;
+    }
+    .srm_gmap_contact_area, .srm_gmap_instructions{
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    #wpgmap_title,#wpgmap_map_address{
+        margin-bottom: 5px !important;
+    }
+    .gmap_properties tr .regular-text {
+        width: 99% !important;
+        max-width: 99%;
+    }
+    .gmap_header_section{
+        text-align: center !important;
+    }
+    .gmap_header_section_left{
+        width: 100% !important;
+    }
+    .gmap_header_section_right{
+        width: 100% !important;
+        max-width: 100% !important;
+        float: left;
+    }
+    .gmap_get_pro_version {
+        padding: 2px 5px !important;
+        font-weight: normal !important;
+        margin: 5px 5px 0 0px !important;
+        font-size: 12px !important;
+    }
+    .gmap_donate_button img{
+        width: 110px !important;
+        height: 40px !important;
+    }
+    .gmap_header_section_right_inner{
+        width: 71% !important;
+        margin: 0 auto !important;
+    }
+    .gmap_embed_create_new_link_area {
+        width: 80% !important;
+    }
+}

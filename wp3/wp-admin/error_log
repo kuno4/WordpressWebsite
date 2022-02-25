@@ -1,0 +1,2 @@
+[17-Apr-2021 23:18:21 UTC] WordPress database error Table 'micha798_wp882.wpvd_signups' doesn't exist for query SHOW FULL COLUMNS FROM `wpvd_signups` made by wp_delete_user, do_action('delete_user'), WP_Hook->do_action, WP_Hook->apply_filters, wppb_delete_user_from_signups
+[21-Apr-2021 03:17:07 UTC] WordPress database error Table 'micha798_wp882.wpvd_signups' doesn't exist for query SHOW FULL COLUMNS FROM `wpvd_signups` made by wp_delete_user, do_action('delete_user'), WP_Hook->do_action, WP_Hook->apply_filters, wppb_delete_user_from_signups

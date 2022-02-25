@@ -1,0 +1,382 @@
+/*Media query for mobile devices*/
+@import "wp-gmap-style-media-query.css";
+/******* For Google Map Rendering ******/
+.wp-gmap-preview .controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.wp-gmap-preview #pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.wp-gmap-preview #pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.pac-container {
+    font-family: Roboto;
+    z-index: 99999;
+}
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#target {
+    width: 345px;
+}
+
+/******* Google Map Settings ******/
+#gmap_container_inner {
+    background-color: white;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 5px darkgray;
+}
+
+.popup-content {
+    position: relative;
+    width: 60%;
+}
+
+/******* Map Nav Related ********/
+ul#wp-gmap-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+ul#wp-gmap-nav li {
+    display: inline-block;
+    background-color: #32c896;
+    border-bottom: solid 5px #238b68;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul#wp-gmap-nav li:hover, ul#wp-gmap-nav .active {
+    background-color: #238b68;
+}
+
+ul#wp-gmap-nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+/******* Map Tab Related ******/
+#wp-gmap-tabs {
+    padding: 1%;
+    float: left;
+    width: 98%;
+}
+
+#wp-gmap-tabs .wp-gmap-tab-content {
+    display: none;
+}
+
+#wp-gmap-tabs .active {
+    display: block;
+}
+
+/******* Map List Related ******/
+.wp-gmap-list {
+    padding: 1%;
+    float: left;
+    width: 97%;
+}
+
+.wp-gmap-single {
+    padding: .2% 1%;
+    float: left;
+    width: 97%;
+    border: 1px #ccc solid;
+    margin: 7px 0px;
+    background-color: #f3f3f3;
+}
+
+.wp-gmap-single-left {
+    width: 80%;
+    float: left;
+}
+
+.wp-gmap-single-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.wp-gmap-single-action {
+    width: 20%;
+    padding: 13px 0;
+    float: left;
+    text-align: right;
+}
+
+/******* Map Properties ******/
+.wp-gmap-properties-outer {
+    width: 31.7%;
+    float: left;
+    /*margin: 9px;*/
+    border: 1px #ccc solid;
+
+}
+
+.wp-gmap-properties, .wp-gmap-other-properties {
+    width: 100%;
+    background-color: white;
+    float: left;
+    /*padding: 5px 1% 1% 1%;*/
+
+}
+
+.gmap_properties {
+    width: 100%;
+    /*border: 1px #d2cece solid;*/
+    padding: 1%;
+}
+
+.gmap_properties tr {
+    height: 50px;
+}
+
+.gmap_properties tr .regular-text {
+    width: 99%;
+    max-width: 99%;
+}
+
+/******* To Preview Map ******/
+.wp-gmap-preview {
+    width: 67%;
+    /*padding: 1%;*/
+    /*border: 1px #ccc solid;*/
+    background-color: #f3f3f3;
+    margin-left: 1%;
+    float: left;
+}
+
+/**********To view contact form ***********/
+.srm_gmap_contact_area {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.srm_gmap_instructions_outer_area {
+    width: 50%;
+    /*float: left;*/
+    /*margin-left: 2%;*/
+    padding: 10px;
+    margin: 0 auto;
+}
+.srm_gmap_instructions {
+    width: 42%;
+    float: left;
+    margin-left: 2%;
+    padding: 10px;
+}
+
+.srm_gmap_instructions ul {
+    padding: 0;
+    margin: 0;
+}
+
+.srm_gmap_instructions ul li {
+    background-color: #f0f0f0;
+    padding: 6px;
+    border: 1px solid #e0e0e0;
+    margin: 5px 0;
+}
+
+.srm_gmap_instructions ul li:before {
+    content: '> ';
+    font-weight: bold;
+}
+
+.srm_gmap_instructions ul li:hover {
+
+}
+
+.srm_gmap_instructions ul li a {
+    text-decoration: none;
+}
+
+.srm_gmap_video_area {
+    width: 95%;
+    float: left;
+    margin-left: 2%;
+    clear: both;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.wp_gmap_contact_field {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 1px 0;
+}
+
+/*updated at 06/04/2019*/
+/*Menu section*/
+.gmap_header_section {
+    width: 100%;
+    float: left;
+}
+
+.gmap_header_section_left {
+    width: 78%;
+    float: left;
+}
+
+.gmap_header_section_right {
+    max-width: 21%;
+    float: right;
+    padding-right: 1%;
+}
+
+.gmap_donate_button {
+    float: left;
+    margin-top: 5px;
+}
+
+.gmap_donate_button img {
+    height: 32px;
+    width: 93px;
+}
+
+.gmap_get_pro_version {
+    float: left;
+    padding: 2px 9px;
+    height: auto !important;
+    font-weight: bold;
+    margin: 5px 5px 0 0px !important;
+    color: #238b68 !important;;
+}
+
+/* Updated 31.01.2020*/
+.wpgmap_tab_menu {
+    width: 100%;
+    background-color: #ccc;
+    float: left;
+    height: 30px;
+}
+
+ul.wpgmap_tab {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+}
+
+.wpgmap_tab li {
+    display: inline;
+    padding: 6px 6px;
+    float: left;
+    background-color: #ccc;
+    border-right: 1px white solid;
+    cursor: pointer;
+}
+
+.wpgmap_tab li:hover, .wpgmap_tab .active {
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/*wp gmap premium notice*/
+.wpgmap_premium_notice_title {
+    color: #0073aa;
+    font-size: 2em;
+    margin: .67em 0;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wpgmap_premium_notice_button {
+    background-color: #0073aa;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 0 14px grey;
+}
+
+.wpgmap_pro_version_title {
+    color: #0073aa;
+    font-size: 2em;
+    margin: .67em 0;
+    display: block;
+    font-weight: 600;
+    padding-left: 55px;
+}
+
+.wpgmap_features_list {
+    padding-left: 51px;
+}
+
+
+/*Custom CSS for Custom CSS and JS under settings */
+#wpgmap_custom_js, #wpgmap_custom_css {
+    background: #2B323C;
+    color: #fff !important;
+    padding: 20px 25px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+}
+
+/* For settings tab*/
+.wpgmapembed_get_api_key {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.wpgmap_lng_custom_script_settings {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.gmap_embed_create_new_link_area {
+    width: 40%;
+    margin: 30px auto;
+}
+
+.gmap_embed_create_new_link_area a {
+    padding: 9px;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: #0073aa;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
